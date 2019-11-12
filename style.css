@@ -1,0 +1,256 @@
+
+body{
+  background-color: #fffaf1;
+}
+h1{
+  font-family: 'gilbert';
+  font-size: 25rem;
+  animation-name: kleurtjes;
+  animation-duration: 4s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  transform:rotate(50deg);
+  margin-top: 20rem;
+}
+.blokje{
+  height: 10rem;
+  width: 10rem;
+  background-color: white;
+}
+@keyframes kleurtjes {
+ 0%  {color: #C41E3D; }
+ 25%  {color:#06AED5; }
+ 50%  {color:#F0C808; }
+ 75%  {color:#086788; }
+ 100% {color:#FFF1D0; }
+}
+
+.visual, .video, .art, .surreal, .intimate, .abstract, .feminist, .pipi{
+  font-family: 'forma-djr-micro', sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: lightgrey;
+}
+
+.visual{
+  position: absolute;
+  top: 5rem;
+  left: 20rem;
+  color: #C41E3D;
+}
+.video {
+  position: absolute;
+  top: 50rem;
+  left: 2rem;
+  color:#06AED5;
+}
+.art{
+  position: absolute;
+  top: 20rem;
+  left: 30rem;
+  color:#F0C808;
+}
+.surreal{
+  position: absolute;
+  top: 70rem;
+  left: 5rem;
+  transform: rotate(-20deg);
+  color:#F0C808;
+}
+.intimate{
+  position: absolute;
+  top: 15rem;
+  left: 3rem;
+  color: darkgrey;
+  transform: rotate(-85deg);
+}
+.abstract{
+  position: absolute;
+  top: 30rem;
+  left: 5rem;
+  transform: rotate(20deg);
+  color: #C41E3D;
+}
+.feminist{
+  position: absolute;
+  top: 60rem;
+  left: 25rem;
+  transform: rotate(50deg);
+  color: orange;
+}
+.pipi{
+  position: absolute;
+  top: 40rem;
+  left: 5rem;
+  color:pink;;
+}
+h2, h3 ,h4, h5{
+  font-family: 'bely';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+  padding-left:  10rem;
+}
+.about,.about02, .life, .life02, .life03,.life04, .life05, .life06, .work01, .work02, .work03, .work04, .work05, .work06, .work07,.work08, .collection01, .influ01 {
+  font-family: 'bely';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+h2{
+  margin-top: 10rem;
+  color: #086788;
+  transform: rotate(-160deg);
+  font-weight: 900;
+  text-decoration-line: line-through;
+}
+h3{
+  color: #C41E3D;
+  transform: rotate(-10deg);
+  text-decoration-line: line-through;
+}
+h4{
+  margin-top: 20rem;
+  padding-left: 5rem;
+
+}
+
+h5{
+  font-size: 3rem;
+  text-decoration-line: line-through;
+}
+.about02{
+  transform: rotate(180deg);
+}
+.life04{
+  transform: rotate(40deg);
+  margin-top: 15rem;
+  margin-bottom: 10rem;
+}
+.life06{
+  transform: rotate(-100deg);
+  margin-top: 10rem;
+}
+.work{
+  color: pink;
+  transform: rotate(30deg);
+  font-weight: 900;
+}
+.collection{
+  color: #086788;
+  font-weight: 900;
+  transform: rotate(150deg);
+}
+.influ{
+  color: #F0C808;
+  text-decoration-line: line-through;
+}
+.work05{
+  transform: rotate(-10deg);
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.work07{
+  transform: rotate(180deg);
+}
+.yellow{
+  color: #F0C808;
+}
+.red{
+  color:#C41E3D;
+}
+.blue{
+  color: #086788;
+  font-weight: 900;
+}
+.orange{
+  color: orange;
+}
+.green{
+  color: green;
+}
+footer{
+  background-color: pink;
+  height: 6rem;
+  font-family: 'gilbert';
+  font-size: 4rem;
+  color: #086788;
+  text-align: center;
+  margin-top: 2rem;
+}
+footer > p {
+  padding-bottom: 1rem;
+  text-decoration-line: line-through;
+  transform: rotate(180deg);
+}
+}
+@media (min-width: 600px){
+
+  h1{
+    font-size: 25rem;
+    transform: rotate(-20deg);
+    margin-top: 5rem;
+  }
+  .visual{
+    top: 40rem;
+    left: 70rem;
+  }
+  .feminist{
+    left: 50rem;
+  }
+  .surreal{
+    top: 15rem;
+    left: 70rem;
+    color: orange;
+    transform: rotate(-60deg);
+  }
+  .pipi{
+    transform: rotate(20deg);
+  left: 35rem;
+  }
+}
+
+
+@media (min-width: 1000px){
+  body{
+    background-color: #151f2b;
+  }
+  p{
+    color: white;
+  }
+  h1{
+    padding-bottom: 25rem;
+    padding-top: 3rem;
+    transform: rotate(-10deg);
+    font-size: 30rem;
+  }
+.video{
+  left: 110rem;
+}
+.abstract{
+  top: 5rem;
+  left: 90rem;
+}
+.pipi{
+  top: 30rem;
+  left: 50rem;
+}
+.surreal{
+  top: 65rem;
+  left: 50rem;
+}
+.life04{
+  transform: rotate(5deg);
+}
+.influ01{
+  margin-bottom: 15rem;
+}
+
+}
